@@ -56,7 +56,7 @@ function draw() {
 //when size is too small, redraw
 function mousePressed() {
     if (size > small) {
-        redraw();
+        redraw(draw());
     }
 }
 //fin
