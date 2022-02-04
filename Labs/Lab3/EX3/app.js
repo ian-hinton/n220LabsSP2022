@@ -1,7 +1,7 @@
 //Ian Hinton
 //N220
 //2/3/2022
-//This program removes the red value of a circle
+//This program creates a circle because I couldn't figure out how to get it to work
 
 let x;
 let y;
