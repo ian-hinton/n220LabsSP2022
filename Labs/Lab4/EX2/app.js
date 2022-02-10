@@ -1,8 +1,8 @@
 let pet = {
-    x,
-    y,
+    x: 0,
+    y: 0,
     size: 100,
-    offsetX,
+    offsetX: 0,
 }
 
 function setup() {
@@ -11,12 +11,12 @@ function setup() {
 }
 
 function draw() {
-    if(mouseIsPressed && offsetX > 0) {
-        offsetX--;
+    if(mouseIsPressed && pet.offsetX > 0) {
+        pet.offsetX--;
     }
     if(!mouseIsPressed) {
-        offsetX++;
+        pet.offsetX++;
     }
     fill("blue");
-    circle(mouseX - offsetX, mouseY, size);
+    circle(mouseX - pet.offsetX, mouseY, pet.size);
 }

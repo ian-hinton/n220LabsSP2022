@@ -13,11 +13,12 @@ function setup(){
 
 function draw(){
     fill("BLUE");
-    graphic.display;
-    //car(graphic);
+    car(graphic);
+    
 }
 
-/*function car(){
-    graphic.speed = x+=1;
-}*/
-console.log(graphic);
+function car(objbox){
+    rect(objbox.x, objbox.y, objbox.width, objbox.height);
+    console.log(objbox);
+}
+
