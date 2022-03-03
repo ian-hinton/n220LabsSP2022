@@ -13,7 +13,7 @@ function Click() {
     dvSquare.innerHTML == "No";
     console.log(dvSquare.innerHTML);
     } 
-    if(dvSquare.innerHTML = "No") {
+    else  {
         dvSquare.innerHTML = "Yes";
     }
 }
