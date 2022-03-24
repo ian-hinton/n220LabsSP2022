@@ -5,16 +5,16 @@ function remove() {
     let userTxt = txtName.value;
     let char = userTxt[i];
     let word;
-    let none;
-    let some;
+    let vowel;
+    let conson;
 
     for (var i = 0; i < userTxt.length; i++) {
         if (char == "a", "e", "i", "o", "u", "y") {
-            word = none;
+            word = vowel;
         } else {
-            word = some;
+            word = conson;
         }
     }
-    console.log(some);
+    console.log(conson);
 
 }
